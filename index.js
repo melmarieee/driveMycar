@@ -20,8 +20,8 @@ function Driver(name, age, workExperience) {
     }
 }
 
-const Toto = new Driver("Toto", 40 ,"Taxi Driver");
-const Boy = new Driver("Boy", 50 ,"Bus Driver");
+const Toto = new Driver("Toto", 26 ,"janitor");
+const Boy = new Driver("Boy", 31 ,"jeepney Driver");
 
 let myDriver = document.getElementById("DriveMyCar")
 myDriver.addEventListener("click", function(){
